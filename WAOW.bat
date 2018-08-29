@@ -3,8 +3,8 @@ cls
 
 :start
 set/p answer=Am I the best? 
-	if %ANSWER%==Yes goto correct
-	if %ANSWER%==yes goto correct
+	if %ANSWER%==Yes goto wrong
+	if %ANSWER%==yes goto wrong
 	if %ANSWER%==No goto wrong
 	if %ANSWER%==no goto wrong
 echo Try again please.
