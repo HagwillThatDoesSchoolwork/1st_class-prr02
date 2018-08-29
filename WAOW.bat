@@ -22,3 +22,5 @@ echo how could you be so wrong?
 pause
 
 :end
+
+Andreas was here!
