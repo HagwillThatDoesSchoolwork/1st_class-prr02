@@ -2,7 +2,7 @@
 cls
 
 :start
-set/p %answer%=Am I the best? 
+set/p answer=Am I the best? 
 	if %ANSWER%==Yes goto correct
 	if %ANSWER%==yes goto correct
 	if %ANSWER%==No goto wrong
@@ -22,3 +22,5 @@ echo how could you be so wrong?
 pause
 
 :end
+
+Andreas was here!
